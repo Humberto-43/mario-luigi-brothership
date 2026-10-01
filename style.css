@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+   font-family: "Rubik", sans-serif;
+}
+body{
+    background-color:#049cd8;
+}
+p{
+    
+}
+h2{
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom:20px ;
+}
+h1{
+    color:transparent;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #e6231f 0%, #20338e 100%);
+    background-clip: text;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+}
+section{
+    margin: 100px auto;
+}
+.baner{
+    height: 750px;
+    background: linear-gradient(180deg, #7dcae8 0%, #049cd8 50.5%, #7dcae8 100%);
+    padding-top: 75px;
+    border-bottom: 6px #f8ce04 solid;
+}
+.logo img{
+    width:100%;
+    height: 100%;
+}
+.baner-content{
+    width: 745px;
+    margin: auto;
+    text-align: center;
+}
+.baner p{
+    font-size: 1.5rem;
+    margin:15px 0px ;
+}
+.logo{
+    width:280px;
+    height:280px;
+    background-color: #039ad648;
+    margin: auto;
+    border-radius: 100%;
+}
+.baner a{
+    color: #e6231f;
+    padding:8px ;
+    background-color: transparent;
+    border:3px blue solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.baner a:hover{
+    cursor: hand;
+}
+.conteudo{
+    width: 745px;
+    text-align: center;  
+}
+.modulos{
+    
+    margin:13px 0px;
+}
+.lista{
+    width:600px;
+    color:yellow;
+    margin:0px auto 10px;
+    background-color:#40af46;
+    padding: 13px;
+    border: 3px solid #000000;
+    border-radius:40px;
+    box-shadow: inset -1px 5px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.lista span{
+    color:#000000;
+    font-weight: 600;
+}
+.conteudoParalax{
+    height: 650px;
+    background-image: url(assets/mario-and-luigi-from-brothership-mario-and-luigi.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 6px #f8ce04 solid;
+    border-top: 6px #f8ce04 solid;
+    padding: 100px;
+}
+.texto{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    max-width: 400px;
+    color:#40af46;
+    text-shadow: 5px 4px #000000;
+}
+.conteudoChamada{
+    width:750px;
+    height:650px;
+    text-align: center;
+}
+.conteudoChamada img{
+    margin: 43px 0px;
+}
+.footer{
+    border-top: 3px #f8ce04 solid;
+    background: linear-gradient(180deg, #7dcae8 0%, #049cd8 50.5%, #7dcae8 100%);
+    text-align: center;
+    font-size: 25px;
+    padding: 43px 0px;
+}   
+.footer p a{
+    color:red;
+    text-decoration-line: none;
+}
